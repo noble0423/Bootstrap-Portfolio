@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap-Portfolio - Contact Me Pg</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container" id="navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="text-white" href="index.html"></h1>Ryan Noble</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="navbar-right">
+                    <ul>
+                        <menu><a href="index.html">About</a></menu>
+                        <menu><a href="portfolio.html">Portfolio</a></menu>
+                        <menu><a href="contact.html">Contact</a></menu>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Solo Row (Pg is designed using 1 row) -->
+        <div class="row" id="main-row">
+            <!-- "Contact" - Main Container Col 1-->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" id="contact-container">
+                <div class="page-header">
+                    <h1>Contact</h1>
+                </div>
+                <!-- "Contact" Container Sub-Row 1 -->
+                <div class="row">
+                    <!-- "Contact" Sub-Row 1/Sub Col 1 and Sub-Col 2 -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="Name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Password</label>
+                                <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                            </div>
+                            <div class="message">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" required="required"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required"> -->
+            <!-- "Connect" - Main Container Col 2-->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="connect-container">
+                <!-- Sidebar -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="panel-heading">
+                        <h2>Connect with Me</h2>
+                    </div>
+                    <div class="panel-body">
+                        <img src="images/if_github2_252065.png" class="social" alt="Github Icon placeholder">
+                        <img src="images/if_square-linkedin_317725.svg" class="social" alt="LinkedIn Icon placeholder">
+                        <img src="images/if_overflow_386674.svg" class="social" alt="Stack Overflow Icon placeholder">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Sticky Footer -->
+    <footer>
+        <div class="container">
+            Copyright &copy; 2016 Ryan Noble
+        </div>
+    </footer>
+
+</body>
+</html>
