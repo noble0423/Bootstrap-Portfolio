@@ -222,3 +222,11 @@ footer {
     border: 1px solid #ddd;
     padding-left: 30px;
 } */
+
+@media only screen and (max-width: 620px) {
+    menu {
+      display: block;
+      border: none;
+    }
+    
+}
